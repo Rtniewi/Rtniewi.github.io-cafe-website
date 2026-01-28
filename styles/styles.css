@@ -10882,11 +10882,3 @@ button {
   cursor: pointer; /* 鼠标悬停时显示手形指针 */
   border-radius: 5px; /* 按钮边角圆润 */
 }
-
-.card-img-top {
-  width: 300px; 
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
-}
