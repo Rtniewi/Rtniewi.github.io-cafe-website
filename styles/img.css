@@ -1,0 +1,8 @@
+.promo-image img {
+    width: 100%;
+    height: auto;
+}
+
+.promo-image img {
+    border-radius: 100px; /* 设置圆角的大小 */
+}

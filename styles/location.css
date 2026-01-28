@@ -1,0 +1,156 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea; /* Creamy off-white background */
+    color: #5c4033; /* Dark brown */ 
+}
+
+/* Header styles */
+header .navbar {
+    background-color: #8b5e3c; /* Medium brown */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .logo {
+    font-size: 24px;
+    color: white;
+}
+
+header .navbar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.2s;
+}
+
+header .navbar nav a:hover, header .navbar nav .active {
+    background-color: #5c4033; /* Dark brown */
+    border-radius: 5px;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main .map-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+main h1 {
+    color: #8b5e3c;
+}
+
+/* Locations display */
+.locations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.location {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.location h2 {
+    color: #8b5e3c;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: center; /* Centers the container horizontally */
+    align-items: center; /* Centers the container vertically */
+}
+
+.image-container {
+    display: flex;
+    width: 60%;
+    height: 100vh; /* 设置视口高度 */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-around; /* Distributes space around items */
+}
+
+.image-container img {
+    width: 84%; /* 每张图片占据容器的50%宽度 */
+    height:80%;
+    object-fit: cover; /* 保证图片不会变形 */
+    align-items: center; /* Align items vertically in the center */
+}
+
+
+section {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 10px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #402600;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2d1503;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: burlywood;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 14px;
+}

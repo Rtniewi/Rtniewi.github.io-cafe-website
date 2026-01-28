@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea; /* Creamy off-white background */
+    color: #5c4033; /* Dark brown */
+	font-size: 14px;
+    align-items: center;
+}
+
+/* Header styles */
+header .navbar {
+    background-color: #8b5e3c; /* Medium brown */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .logo {
+    font-size: 24px;
+    color: white;
+}
+
+header .navbar nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.2s;
+}
+
+header .navbar nav a:hover, header .navbar nav .active {
+    background-color: #5c4033; /* Dark brown */
+    border-radius: 5px;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 15px auto;
+}
+
+#calendar {
+	max-width: 1100px;
+	margin: 40px auto;
+  }
+  
+/* Footer styling */
+.footer-container-calendar {
+	margin-top: 1em;
+	border-top: 1px solid #dadada;
+	padding: 10px 0;
+}
+
+.footer-container-calendar select {
+	cursor: pointer;
+	background: #ffffff;
+	color: #585858;
+	border: 1px solid #bfc5c5;
+	border-radius: 3px;
+	padding: 5px 1em;
+}
